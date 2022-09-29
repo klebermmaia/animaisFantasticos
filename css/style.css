@@ -1,6 +1,7 @@
 /*        GERAL       */
-@import url(1-normalize.css);
-@import url(2-reset.css);
-@import url(geral.css);
-@import url(modal.css);
-@import url(tooltip.css);
+@import url(modules-css/1-normalize.css);
+@import url(modules-css/2-reset.css);
+@import url(modules-css/geral.css);
+@import url(modules-css/modal.css);
+@import url(modules-css/tooltip.css);
+@import url(modules-css/dropdown-menu.css);
