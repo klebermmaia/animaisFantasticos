@@ -33,6 +33,7 @@
   }
   .nav ul {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
   }
   .nav ul a {
