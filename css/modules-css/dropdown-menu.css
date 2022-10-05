@@ -7,7 +7,7 @@
 [data-dropdown]:hover .dropdown-menu,
 [data-dropdown].active .dropdown-menu{
     display: block;
-    animation: show-up .3s normal;
+    animation: show-up .3s;
 }
 @keyframes show-up {
     from{
@@ -29,8 +29,8 @@
 .dropdown-menu::before{
     content: '';
     display: block;
-    position: absolute;
-    top: -10px;
+    position: relative;
+    top: -20px;
     left: 20px;
     width: 0;
     height: 0;

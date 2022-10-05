@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM Plex Mono+Plex+Mono:wght@600&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC&display=swap');
   html.textoMaior {
     font-size: 150%;
   }
@@ -42,14 +43,13 @@
     margin-right: 10px;
     text-transform: uppercase;
     font-size: 0.875rem;
+    font-weight: 600;
     font-family: "IBM Plex Mono", monospace;
     color: #242424;
     letter-spacing: 0.1rem;
   }
   /*        TITULOS       */
-  .sec-animais h1,
-  .faq h1,
-  .contato h1 {
+  .titulo {
     font-size: 6rem;
     font-family: "Playfair Display", georgia;
     line-height: 1;
@@ -69,6 +69,7 @@
     height: 370px;
     overflow-y: scroll;
     grid-column: 2;
+    cursor: pointer;
   }
   .animais-descriçao {
     grid-column: 3;
